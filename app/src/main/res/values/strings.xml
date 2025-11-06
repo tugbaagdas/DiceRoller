@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">Dice Roller</string>
     <string name="roll_dice">Roll Dice</string>
     <string name="total">Total:</string>
     <string name="title">Dice Roller</string>
+    <string name="app_name">Dice Roller</string>
+    <string name="title_text">Dice Roller</string>
+    <string name="total_label">Total:</string>
+    <string name="roll_button_text">Roll Dice</string>
 </resources>
