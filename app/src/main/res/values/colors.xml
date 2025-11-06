@@ -1,0 +1,10 @@
+<resources>
+    <color name="md_primary">#6750A4</color>
+    <color name="md_onPrimary">#FFFFFF</color>
+    <color name="md_background">#FFFFFF</color>
+    <color name="md_onBackground">#1C1B1F</color>
+    <color name="dice_bg">#F5F7FB</color>
+    <color name="background_dark">#121212</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="button_purple">#8E24AA</color>
+</resources>

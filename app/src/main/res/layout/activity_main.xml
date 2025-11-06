@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:textColor="@color/text_white"
+        android:textSize="26sp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/diceImage1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dice_1"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/title_text" />
+
+        <ImageView
+            android:id="@+id/diceImage2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dice_2"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/title_text" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_label"
+        android:textColor="@color/text_white"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_button_text"
+        android:textColor="@color/text_white"
+        android:backgroundTint="@color/button_purple"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
